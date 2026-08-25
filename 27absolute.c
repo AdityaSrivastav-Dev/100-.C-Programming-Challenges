@@ -3,10 +3,10 @@
 
 int main()
 {
-  int n;
+  int marks;
 
-  printf("Please Your number ");
-  scanf("%d", &n);
-printf("%d is absole value ",n > 0 ? n:-n);
+  printf("Please Your Marks ");
+  scanf("%d", &marks);
+  marks > 80 ? printf("high"):(marks>=50 ?printf("Medium"):printf("low"));
   return 0;
 }
