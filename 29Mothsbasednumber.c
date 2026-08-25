@@ -33,7 +33,7 @@ switch(number){
   break;
   case 12:printf("December");
   break;
-  default: printf("invalid number entered please give the number b/w 1 to 12");
+  default: printf("invalid number entered please give the number b/w 1 to - 12");
   break;
 
 }
